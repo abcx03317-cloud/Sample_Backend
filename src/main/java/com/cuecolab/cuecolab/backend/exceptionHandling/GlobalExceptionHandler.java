@@ -14,6 +14,6 @@ public class GlobalExceptionHandler {
         System.out.println("Rate limit exceeded");
         return ResponseEntity
                 .status(HttpStatus.TOO_MANY_REQUESTS)
-                .body("Rate limit exceeded. Please try again later");
+                .body("Rate limit exceeded. Please try again later"); 
     }
 }
